@@ -15,14 +15,14 @@ layers:
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - {t: D, s: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, s: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-down-bold$$
   - H
-  - {t: J, h: RIGHT GUI}
+  - {t: J, s: '$$mdi:apple-keyboard-shift$$'}
   - {t: K, s: '$$mdi:apple-keyboard-control$$'}
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, s: ':'}
