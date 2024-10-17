@@ -200,7 +200,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
-  - F3
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F4
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -212,9 +212,9 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:keyboard-esc$$
-  - $$mdi:mouse-right-click-outline$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
