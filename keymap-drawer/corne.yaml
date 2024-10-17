@@ -219,8 +219,8 @@ layers:
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - $$mdi:progress-download$$
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&mkp DEL'
+  - $$mdi:backspace-reverse-outline$$
+  - $$mdi:mouse-right-click-outline$$
   - PRINTSCREEN
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
