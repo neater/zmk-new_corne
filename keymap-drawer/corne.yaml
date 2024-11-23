@@ -281,8 +281,8 @@ layers:
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-right-bold$$
   - SCROLLLOCK
   - PAUSE BREAK
   - $$mdi:volume-off$$
