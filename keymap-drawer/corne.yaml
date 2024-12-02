@@ -27,7 +27,7 @@ layers:
   - {t: L, s: '$$mdi:apple-keyboard-option$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -39,7 +39,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - '&td0'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:keyboard-space$$
   - LGUI
   - NUMBER
