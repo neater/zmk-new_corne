@@ -96,7 +96,7 @@
 
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <21 22>;
+            key-positions = <20 21>;
         };
 
         left_brace {
@@ -121,7 +121,7 @@
 
         enter {
             bindings = <&kp ENTER>;
-            key-positions = <19 20>;
+            key-positions = <21 22>;
         };
     };
 
