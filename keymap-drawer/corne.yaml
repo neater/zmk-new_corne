@@ -40,12 +40,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:volume-off$$
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:keyboard-return$$', h: FN2}
+  - {t: '$$mdi:keyboard-space$$', h: FN2}
   - SYMBOL
   - FN3
   - {t: '$$mdi:keyboard-return$$', type: enter}
