@@ -86,7 +86,7 @@
 
         right_bkt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <9 8>;
+            key-positions = <7 8>;
         };
 
         left_par {
@@ -122,6 +122,16 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
+        };
+
+        delete {
+            bindings = <&kp BSPC>;
+            key-positions = <8 9>;
+        };
+
+        r_arrow {
+            bindings = <&kp RIGHT_ARROW>;
+            key-positions = <11 12>;
         };
     };
 
