@@ -74,8 +74,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - PG UP
-  - PG UP
+  - BRI INC
+  - BRI INC
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -87,8 +87,8 @@ layers:
   - RGB SPI
   - RGB BRI
   - RGB BRD
-  - PG DN
-  - PG DN
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-7$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
