@@ -42,7 +42,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - LGUI
-  - NUMBER
+  - {t: '$$mdi:keyboard-tab$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: FN}
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:keyboard-space$$', h: FN2}
@@ -301,7 +301,7 @@ combos:
   k: {t: '[', s: '{'}
 - p: [7, 8]
   k: {t: ']', s: '}'}
-- p: [16, 17]
+- p: [17, 18]
   k: (
 - p: [20, 21]
   k: )
