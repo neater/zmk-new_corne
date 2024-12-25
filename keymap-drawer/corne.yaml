@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   FN:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F14
   - F1
   - F2
   - F3
