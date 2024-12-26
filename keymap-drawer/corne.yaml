@@ -163,7 +163,7 @@ layers:
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp 17'
+  - F17
   - $$mdi:keyboard-esc$$
   - F13
   - '&mkp MB4'
