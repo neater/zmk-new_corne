@@ -9,7 +9,7 @@ layers:
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - {t: U, h: cmd shift right}
+  - U
   - I
   - O
   - P
