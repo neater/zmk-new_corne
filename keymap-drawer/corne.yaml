@@ -4,7 +4,7 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
+  - {t: E, h: Alt+LGUI}
   - {t: R, h: Sft+LGUI}
   - T
   - $$mdi:arrow-up-bold$$
