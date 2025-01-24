@@ -9,8 +9,8 @@ layers:
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - {t: U, h: RGUI(RS)}
-  - {t: I, h: RGUI(RALT)}
+  - U
+  - I
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
