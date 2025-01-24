@@ -9,8 +9,8 @@ layers:
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - U
-  - I
+  - {t: U, h: Sft+RGUI}
+  - {t: I, h: AltGr+LGUI}
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
