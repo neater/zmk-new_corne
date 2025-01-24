@@ -4,13 +4,13 @@ layers:
   - $$mdi:keyboard-tab$$
   - Q
   - W
-  - E
-  - R
+  - {t: E, h: LGUI(LALT)}
+  - {t: R, h: LGUI(LS)}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
-  - {t: U, h: Sft+LGUI}
-  - I
+  - {t: U, h: RGUI(RS)}
+  - {t: I, h: RGUI(RALT)}
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
