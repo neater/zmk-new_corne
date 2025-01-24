@@ -5,7 +5,7 @@ layers:
   - Q
   - W
   - E
-  - {t: R, h: LGUI(LS)}
+  - {t: R, h: Sft+LGUI}
   - T
   - $$mdi:arrow-up-bold$$
   - Y
