@@ -113,6 +113,11 @@
             key-positions = <17 18>;
         };
 
+        left_par_f {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 10>;
+        };
+
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
