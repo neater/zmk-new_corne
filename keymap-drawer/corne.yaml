@@ -161,7 +161,7 @@ layers:
   - F9
   - F10
   - F11
-  - LGUI(TAB)
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F17
   - $$mdi:keyboard-esc$$
