@@ -118,6 +118,21 @@
             key-positions = <17 10>;
         };
 
+        right_par_f {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 11>;
+        };
+
+        colon_f {
+            bindings = <&kp COLON>;
+            key-positions = <17 23>;
+        };
+
+        double_quotes_f {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 24>;
+        };
+
         right_par {
             bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <20 21>;
