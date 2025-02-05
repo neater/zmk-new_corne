@@ -63,7 +63,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:keyboard-tab$$
   - '!'
   - '@'
   - '#'
@@ -148,7 +148,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   FN:
-  - F16
+  - {t: Gui+`, s: Gui+~}
   - F1
   - F2
   - F3
@@ -161,7 +161,7 @@ layers:
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - F10
   - F11
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F17
   - $$mdi:keyboard-esc$$
