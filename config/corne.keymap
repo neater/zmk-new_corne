@@ -234,7 +234,7 @@
             bindings = <
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp MINUS  &kp EQUAL  &kp BSPC
 //&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
-&trans  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
+&kp CAPS  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                       &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                        &mkp LCLK
