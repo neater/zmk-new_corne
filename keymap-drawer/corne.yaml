@@ -156,9 +156,9 @@ layers:
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
-  - F7
+  - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - F9
+  - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
