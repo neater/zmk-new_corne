@@ -41,6 +41,12 @@
             bindings = <&kp LEFT_SHIFT>, <&kp CAPS>;
         };
 
+        tde: tap_dance_e {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&kp E>, <&kp LS(E)>;
+        };
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
