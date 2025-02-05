@@ -211,7 +211,7 @@
             bindings = <
 &trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp BSPC
 //&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
-&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
+&kp LA(TAB)  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &trans        &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &kp N1  &kp N2 &kp N3  &kp C_BRI_DEC   &kp C_BRI_DEC
                          &kp C_MUTE      &trans        &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                         &mkp LCLK
@@ -247,8 +247,8 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp F16  &kp F1      &kp F2      &kp F3       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &kp F10          &kp F11
-&trans  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &mmv MOVE_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PG_UP  &kp F12
+&kp LG(GRAVE)  &kp F1      &kp F2      &kp F3       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &kp F10          &kp F11
+&kp LG(TAB)  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &mmv MOVE_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp PG_UP  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp PG_DN   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
