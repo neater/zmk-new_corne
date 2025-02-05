@@ -150,9 +150,9 @@ layers:
   FN:
   - {t: Gui+`, s: Gui+~}
   - {t: Gui+1, s: Gui+!}
-  - F2
-  - F3
-  - F4
+  - {t: Gui+2, s: Gui+@}
+  - {t: Gui+3, s: Gui+#}
+  - {t: Gui+4, s: Gui+$}
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
