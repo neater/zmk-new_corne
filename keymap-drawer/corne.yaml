@@ -149,7 +149,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   FN:
   - {t: Gui+`, s: Gui+~}
-  - F1
+  - {t: Gui+1, s: Gui+!}
   - F2
   - F3
   - F4
