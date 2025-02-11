@@ -13,6 +13,14 @@
 #define U_MS_L &mmv MOVE_LEFT
 #define U_MS_R &mmv MOVE_RIGHT
 
+
+
+&msc {
+    acceleration-exponent = <0>;      // 0
+    time-to-max-speed-ms = <0>;       // 300
+    delay-ms = <0>;                   // 0
+};
+
 / {
     macros {
         cmd_shift_left: cmd_shift_left {
