@@ -246,7 +246,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   FN3:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-up$$
   - F1
   - F2
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
@@ -259,7 +259,7 @@ layers:
   - F9
   - $$mdi:brightness-7$$
   - $$mdi:progress-download$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:pan-down$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
