@@ -41,6 +41,12 @@
         };
     };
 
+    &msc {
+        acceleration-exponent = <1>;      // 0
+        time-to-max-speed-ms = <400>;      // 500
+        delay-ms = <0>;                   // 10
+    };
+
     behaviors {
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
@@ -89,11 +95,6 @@
             delay-ms = <0>;                   // 0
         };
 
-        msc {
-            acceleration-exponent = <1>;      // 0
-            time-to-max-speed-ms = <400>;      // 500
-            delay-ms = <0>;                   // 10
-        };
     };
 
     rgb_encoder: rgb_encoder {
