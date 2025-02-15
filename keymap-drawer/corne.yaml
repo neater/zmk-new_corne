@@ -206,8 +206,8 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
-  - F8
   - {t: '$$mdi:backspace$$', type: backspace}
+  - F9
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
