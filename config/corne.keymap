@@ -298,7 +298,7 @@
             bindings = <
 &kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &td_minus        &td_equal
 &kp LG(TAB)  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &td_lbkt  &td_rbkt
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp PG_DN   &kp PAUSE_BREAK
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp LPAR   &kp RPAR
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
