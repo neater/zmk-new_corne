@@ -73,7 +73,7 @@
         td_minus: tap_dance_minus {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&kp MINUS>, <&kp Underscore>;
+            bindings = <&kp MINUS>, <&kp UNDERSCORE>;
         };
 
         hm: homerow_mods {
