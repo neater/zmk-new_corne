@@ -1,7 +1,7 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-esc$$', s: '`'}
+  - '&td_grave'
   - Q
   - W
   - {t: E, h: Alt+LGUI}
