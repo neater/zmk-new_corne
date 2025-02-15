@@ -159,7 +159,7 @@ layers:
   - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
-  - F10
+  - '&td_minus'
   - F11
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
