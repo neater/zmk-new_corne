@@ -70,7 +70,7 @@
             bindings = <&kp E>, <&kp LS(E)>;
         };
 
-        td_minus: tap_dance_e {
+        td_minus: tap_dance_minus {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp MINUS>, <&kp Underscore>;
