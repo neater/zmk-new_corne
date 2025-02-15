@@ -160,7 +160,7 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - '&td_minus'
-  - F11
+  - '&td_equal'
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F17
