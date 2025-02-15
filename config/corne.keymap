@@ -85,13 +85,13 @@
         td_lbkt: tap_dance_lbkt {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&kp LBKT>, <&kp LBKT>;
+            bindings = <&kp LBKT>, <&kp LBRC>;
         };
 
         td_rbkt: tap_dance_rbkt {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&kp RBKT>, <&kp RBKT>;
+            bindings = <&kp RBKT>, <&kp RBRC>;
         };
 
         hm: homerow_mods {
