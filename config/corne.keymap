@@ -159,17 +159,22 @@
 
         left_bkt {
             bindings = <&kp LEFT_BRACKET>;
-            key-positions = <4 5>;
+            key-positions = <30 31>;
         };
 
         right_bkt {
             bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <7 8>;
+            key-positions = <33 34>;
         };
 
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <17 18>;
+            key-positions = <4 5>;
+        };
+
+        right_par {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <7 8>;
         };
 
         left_par_f {
@@ -192,19 +197,14 @@
             key-positions = <17 25>;
         };
 
-        right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <20 21>;
-        };
-
         left_brace {
             bindings = <&kp LEFT_BRACE>;
-            key-positions = <30 31>;
+            key-positions = <20 21>;
         };
 
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
-            key-positions = <33 34>;
+            key-positions = <23 24>;
         };
 
         bac {
