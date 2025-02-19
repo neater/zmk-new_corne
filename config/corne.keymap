@@ -87,7 +87,7 @@
             bindings = <&kp LBKT>, <&kp LBRC>;
         };
 
-        td_rbkt: tap_dance_rbkt {
+        : tap_dance_rbkt {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp RBKT>, <&kp RBRC>;
@@ -301,9 +301,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &td_minus        &td_equal
-&kp LG(TAB)  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &td_lbkt  &td_rbkt
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp LPAR   &kp RPAR
+&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &kp LPAR   &kp RPAR
+&kp LG(TAB)  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp LBRC  &kp RBRC
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans       &trans      &td_minus        &td_equal    &td_lbkt  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
