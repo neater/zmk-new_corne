@@ -159,8 +159,8 @@ layers:
   - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
   - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
-  - '&td_minus'
-  - '&td_equal'
+  - (
+  - )
   - Gui+$$mdi:keyboard-tab$$
   - {t: '$$mdi:transfer$$', type: trans}
   - F17
@@ -172,8 +172,8 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - '&td_lbkt'
-  - '&td_rbkt'
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -183,10 +183,10 @@ layers:
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:progress-download$$
-  - {t: '$$mdi:backup-restore$$', type: bootloader}
-  - (
-  - )
+  - '&td_minus'
+  - '&td_equal'
+  - '&td_lbkt'
+  - '&td_rbkt'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
