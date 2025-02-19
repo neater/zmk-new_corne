@@ -182,9 +182,9 @@ layers:
   - '&mkp MB5'
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&td_minus'
   - '&td_equal'
+  - '&td_bslh'
   - '&td_lbkt'
   - '&td_rbkt'
   - $$mdi:volume-off$$
