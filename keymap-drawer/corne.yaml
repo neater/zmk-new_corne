@@ -109,8 +109,8 @@ layers:
   - ^
   - '&'
   - '*'
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - '{'
+  - '}'
   - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-caps$$
   - {t: '1', s: '!'}
