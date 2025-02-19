@@ -87,7 +87,7 @@
             bindings = <&kp LBKT>, <&kp LBRC>;
         };
 
-        : tap_dance_rbkt {
+        td_rbkt: tap_dance_rbkt {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
             bindings = <&kp RBKT>, <&kp RBRC>;
