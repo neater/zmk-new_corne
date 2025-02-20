@@ -294,7 +294,7 @@
             bindings = <
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSPC
 //&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
-&kp CAPS  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
+&trans  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                       &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                        &mkp LCLK
@@ -308,7 +308,7 @@
             display-name = "Fn";
             bindings = <
 &kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &kp LPAR   &kp RPAR
-&kp LG(TAB)  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp LBRC  &kp RBRC
+&trans  &trans      &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp LBRC  &kp RBRC
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus        &td_equal       &td_bslh    &td_lbkt  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
