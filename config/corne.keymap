@@ -248,7 +248,7 @@
 
             bindings = <
 &td_grave   &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(LGUI) I      &kp O    &kp P     &kp BSPC
-&hm LCTRL CAPS  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F &hm LEFT_SHIFT G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &kp SQT
+&TAB  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F &hm LEFT_SHIFT G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &kp SQT
 &kp LEFT_SHIFT       &kp Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT 
                  &kp C_MUTE  &kp LGUI  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 ENTER &lt 5 RIGHT_GUI 
                                                              &kp ENTER
@@ -270,8 +270,8 @@
             bindings = <
 //&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_UP     &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp BSPC
 //&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
-&trans  &kp F1      &kp F2      &kp F3       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11
-&kp LA(TAB)  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp BSLH
+&trans  &kp F1      &kp F2      &kp F3       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp F8       &kp F9      &kp F10          &kp F11  
+&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp BSLH
 &trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_COLOR_HSB(36,26,98)       &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &kp N1  &kp N2 &kp N3  &kp F12   &kp F12
                          &kp C_MUTE      &trans        &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                         &mkp LCLK
@@ -294,7 +294,7 @@
             bindings = <
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSPC
 //&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
-&trans  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
+&kp CAPS  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                       &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                        &mkp LCLK
