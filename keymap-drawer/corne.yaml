@@ -112,7 +112,7 @@ layers:
   - '{'
   - '}'
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -161,7 +161,7 @@ layers:
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - (
   - )
-  - Gui+$$mdi:keyboard-tab$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - F17
   - $$mdi:keyboard-esc$$
