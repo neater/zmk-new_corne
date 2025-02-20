@@ -294,7 +294,7 @@
             bindings = <
 &kp GRAVE  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSPC
 //&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
-&kp CAPS  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
+&trans  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
                       &trans        &trans     &trans     &kp SPACE    &mmv MOVE_RIGHT  &kp RET    &trans     &trans
                                                                        &mkp LCLK
@@ -322,7 +322,7 @@
             display-name = "Fn2";
             bindings = <
 &trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp BSPC    &kp F9            &kp F10          &kp F11
-&trans  &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &bootloader  &mkp LCLK  &none      &mkp RCLK    &kp PRINTSCREEN  &kp F12
+&kp CAPS  &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &bootloader  &mkp LCLK  &none      &mkp RCLK    &kp PRINTSCREEN  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
