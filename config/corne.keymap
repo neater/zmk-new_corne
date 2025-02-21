@@ -105,6 +105,12 @@
             bindings = <&kp BSLH>, <&kp PIPE>;
         };
 
+        td_sqt: tap_dance_sqt {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&kp SQT>, <&kp DQT>;
+        };
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -307,9 +313,9 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP     &kp F6       &kp LG(LS(LBKT))     &kp BSPC     &kp LG(LS(RBKT))      &kp LPAR   &kp RPAR
-&trans  &kp LG(GRAVE)     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp LBRC  &kp RBRC
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus        &td_equal       &td_bslh    &td_lbkt  &td_rbkt
+&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP      &kp LG(LS(LBKT))       &kp LG(LS(RBKT))     &kp BSPC      &td_minus    &td_equal   &kp RPAR
+&trans  &kp LG(GRAVE)     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &td_sqt  &kp RBRC
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &td_rbkt  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
