@@ -155,11 +155,11 @@ layers:
   - {t: Gui+4, s: Gui+$}
   - F5
   - $$mdi:pan-up$$
-  - F6
   - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
-  - {t: '$$mdi:backspace$$', type: backspace}
   - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
-  - (
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - '&td_minus'
+  - '&td_equal'
   - )
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Gui+`, s: Gui+~}
@@ -172,7 +172,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
-  - '{'
+  - '&td_sqt'
   - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
@@ -183,9 +183,9 @@ layers:
   - $$mdi:pan-left$$
   - {t: '$$mdi:transfer$$', type: trans}
   - '&td_minus'
-  - '&td_equal'
   - '&td_bslh'
   - '&td_lbkt'
+  - '&td_rbkt'
   - '&td_rbkt'
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
