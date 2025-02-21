@@ -199,9 +199,9 @@ layers:
   FN2:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
-  - F2
+  - {t: 'Gui+Sft+[', s: 'Gui+Sft+{'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F4
+  - {t: 'Gui+Sft+]', s: 'Gui+Sft+}'}
   - F5
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
