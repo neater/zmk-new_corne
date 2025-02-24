@@ -198,7 +198,7 @@
             key-positions = <17 21>;
         };
 
-        right_par_f {
+        right_brace_f {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <17 22>;
         };
