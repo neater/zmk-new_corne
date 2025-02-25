@@ -158,56 +158,6 @@
     combos {
         compatible = "zmk,combos";
 
-        left_par {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <4 5>;
-        };
-
-        right_par {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <7 8>;
-        };
-
-        left_brace {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <17 18>;
-        };
-
-        right_brace {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <20 21>;
-        };
-
-        left_bkt {
-            bindings = <&kp LBKT>;
-            key-positions = <31 32>;
-       };
-
-        right_bkt {
-            bindings = <&kp RBKT>;
-            key-positions = <34 35>;
-        };
-
-        left_par_f {
-            bindings = <&kp LEFT_PARENTHESIS>;
-            key-positions = <17 8>;
-        };
-
-        right_par_f {
-            bindings = <&kp RIGHT_PARENTHESIS>;
-            key-positions = <17 9>;
-        };
-
-        left_brace_f {
-            bindings = <&kp LEFT_BRACE>;
-            key-positions = <17 21>;
-        };
-
-        right_brace_f {
-            bindings = <&kp RIGHT_BRACE>;
-            key-positions = <17 22>;
-        };
-
         left_bkt_f {
             bindings = <&kp LBKT>;
             key-positions = <17 34>;
