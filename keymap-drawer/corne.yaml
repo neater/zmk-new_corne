@@ -344,6 +344,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
 combos:
+- p: [17, 8]
+  k: (
+- p: [17, 9]
+  k: )
+- p: [17, 21]
+  k: '{'
+- p: [17, 22]
+  k: '}'
 - p: [17, 34]
   k: {t: '[', s: '{'}
 - p: [17, 35]
