@@ -163,16 +163,6 @@
             key-positions = <0 1>;
         };
 
-        left_bkt {
-            bindings = <&kp LEFT_BRACKET>;
-            key-positions = <30 31>;
-        };
-
-        right_bkt {
-            bindings = <&kp RIGHT_BRACKET>;
-            key-positions = <33 34>;
-        };
-
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -183,16 +173,6 @@
             key-positions = <7 8>;
         };
 
-        colon_f {
-            bindings = <&kp COLON>;
-            key-positions = <17 24>;
-        };
-
-        double_quotes_f {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <17 25>;
-        };
-
         left_brace {
             bindings = <&kp LEFT_BRACE>;
             key-positions = <17 18>;
@@ -201,6 +181,46 @@
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <20 21>;
+        };
+
+        left_par_f {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <17 8>;
+        };
+
+        right_par_f {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <17 9>;
+        };
+
+        left_brace_f {
+            bindings = <&kp LEFT_BRACE>;
+            key-positions = <17 21>;
+        };
+
+        right_brace_f {
+            bindings = <&kp RIGHT_BRACE>;
+            key-positions = <17 22>;
+        };
+
+        left_bkt_f {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <17 34>;
+        };
+
+        right_bkt_f {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <17 35>;
+        };
+
+        colon_f {
+            bindings = <&kp COLON>;
+            key-positions = <17 24>;
+        };
+
+        double_quotes_f {
+            bindings = <&kp DOUBLE_QUOTES>;
+            key-positions = <17 25>;
         };
 
         bac {
