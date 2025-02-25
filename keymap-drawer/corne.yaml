@@ -344,8 +344,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
 combos:
-- p: [0, 1]
-  k: $$mdi:keyboard-esc$$
 - p: [4, 5]
   k: (
 - p: [7, 8]
@@ -354,6 +352,10 @@ combos:
   k: '{'
 - p: [20, 21]
   k: '}'
+- p: [31, 32]
+  k: {t: '[', s: '{'}
+- p: [34, 35]
+  k: RLBKT
 - p: [17, 8]
   k: (
 - p: [17, 9]
@@ -365,7 +367,7 @@ combos:
 - p: [17, 34]
   k: {t: '[', s: '{'}
 - p: [17, 35]
-  k: {t: ']', s: '}'}
+  k: RLBKT
 - p: [17, 24]
   k: ':'
 - p: [17, 25]
@@ -376,7 +378,5 @@ combos:
   k: '|'
 - p: [21, 22]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [8, 9]
-  k: {t: '$$mdi:backspace$$', type: backspace}
 - p: [11, 12]
   k: $$mdi:arrow-right-bold$$
