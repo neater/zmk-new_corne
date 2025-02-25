@@ -193,6 +193,11 @@
             key-positions = <7 8>;
         };
 
+        right_bkt_d {
+            bindings = <&kp RBKT>;
+            key-positions = <16 35>;
+        };
+
         right_bkt_f {
             bindings = <&kp RBKT>;
             key-positions = <17 35>;
