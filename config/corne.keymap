@@ -188,21 +188,6 @@
             key-positions = <17 35>;
         };
 
-        colon_f {
-            bindings = <&kp COLON>;
-            key-positions = <17 24>;
-        };
-
-        double_quotes_f {
-            bindings = <&kp DOUBLE_QUOTES>;
-            key-positions = <17 25>;
-        };
-
-        bac {
-            bindings = <&kp BACKSLASH>;
-            key-positions = <5 7>;
-        };
-
         pipe {
             bindings = <&kp PIPE>;
             key-positions = <18 20>;
