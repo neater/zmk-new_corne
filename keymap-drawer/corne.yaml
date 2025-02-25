@@ -100,7 +100,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   SYMBOL:
   - {t: '`', s: '~'}
-  - '!'
+  - {t: Alt+1, s: Alt+!}
   - '@'
   - '#'
   - $
