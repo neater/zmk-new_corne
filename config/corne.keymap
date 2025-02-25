@@ -158,11 +158,6 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
         left_par {
             bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <4 5>;
@@ -181,6 +176,16 @@
         right_brace {
             bindings = <&kp RIGHT_BRACE>;
             key-positions = <20 21>;
+        };
+
+        left_bkt {
+            bindings = <&kp LBKT>;
+            key-positions = <31 32>;
+       };
+
+        right_bkt {
+            bindings = <&kp RLBKT>;
+            key-positions = <34 35>;
         };
 
         left_par_f {
@@ -204,12 +209,12 @@
         };
 
         left_bkt_f {
-            bindings = <&kp LEFT_BRACKET>;
+            bindings = <&kp LBKT>;
             key-positions = <17 34>;
         };
 
         right_bkt_f {
-            bindings = <&kp RIGHT_BRACKET>;
+            bindings = <&kp RLBKT>;
             key-positions = <17 35>;
         };
 
@@ -236,11 +241,6 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
-        };
-
-        delete {
-            bindings = <&kp BSPC>;
-            key-positions = <8 9>;
         };
 
         r_arrow {
