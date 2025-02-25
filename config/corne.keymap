@@ -278,7 +278,7 @@
             // &trans  &bt BT_CLR    &mkp LCLK     &mkp MCLK  &mkp RCLK  &mkp MB4     &mmv MOVE_DOWN   &kp MINUS  &kp EQUAL  &kp LBKT   &kp RBKT  &kp BSLH  &kp GRAVE
 
             bindings = <
-&kp GRAVE  &kp LA(N1)      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSPC
+&kp GRAVE  &kp LA(N1)    &kp LA(N2)  &kp LA(N3) &kp LA(N4)  &kp LA(N5)    &mmv MOVE_UP     &kp CARET  &kp AMPS   &kp ASTRK  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp BSPC
 //&trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LBKT   &kp RBKT  &kp BSLH
 &trans  &kp N1      &kp N2      &kp N3       &kp N4     &kp N5       &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp DOT
 &trans  &out OUT_USB  &out OUT_BLE  &none      &none      &mkp MB5     &mmv MOVE_LEFT   &kp UNDER  &kp PLUS   &kp LBRC   &kp RBRC  &kp PIPE  &kp TILDE
@@ -322,7 +322,7 @@
             display-name = "Fn3";
             bindings = <
 &msc SCRL_UP  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4     &mmv MOVE_UP     &kp F6       &kp F7     &kp F8       &kp F9      &kp C_BRI_DEC          &bootloader
-&msc SCRL_DOWN   &trans      &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none   &none     &none     &none      &none      &sys_reset
+&msc SCRL_DOWN   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &mkp MB4    &mmv MOVE_DOWN   &none   &none     &none     &none      &none      &sys_reset
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &kp LEFT  &kp RIGHT  &kp SCROLLLOCK   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
