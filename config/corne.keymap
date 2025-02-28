@@ -236,7 +236,7 @@
 &td_grave   &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(LGUI) I      &kp O    &kp P     &kp BSPC
 &kp TAB  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 7 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &kp SQT
 &kp LEFT_SHIFT       &kp Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT 
-                 &kp C_MUTE  &kp LGUI  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 ENTER &lt 5 RIGHT_GUI 
+                 &kp C_MUTE  &lt 8 LGUI  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 ENTER &lt 5 RIGHT_GUI 
                                                              &kp ENTER
             >;
 
@@ -358,6 +358,19 @@
 
             label = "l-layer";
             sensor-bindings = <&scroll_encoder>;
+        };
+
+        layer_8 {
+            display-name = "S-Layer";
+            bindings = <
+&trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp RPAR     &kp F7     &kp F8       &kp F9      &kp LBRC       &kp RBRC
+&trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &kp LBKT  &kp RBKT
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &kp LEFT  &kp RIGHT  &kp LBKT   &kp LBKT
+                    &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
+                                                                    &mkp LCLK
+            >;
+
+            label = "S-Layer";
         };
     };
 };
