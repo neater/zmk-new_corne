@@ -363,9 +363,9 @@
         layer_8 {
             display-name = "S-Layer";
             bindings = <
-&trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp RPAR     &kp F7     &kp F8       &kp F9      &kp LBRC       &kp RBRC
-&trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &kp LBKT  &kp RBKT
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &kp LEFT  &kp RIGHT  &kp LBKT   &kp LBKT
+&trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp RPAR     &kp F7     &kp F8      &kp LBRC       &kp RBRC       &kp RBRC
+&trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &bt BT_SEL 0    &bt BT_SEL 1     &kp LBKT  &kp RBKT  &kp RBKT
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &kp LEFT  &kp RIGHT  &kp LPAR   &kp RPAR
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
