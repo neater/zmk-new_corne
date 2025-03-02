@@ -293,7 +293,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP      &kp LG(LS(LBKT))       &kp LG(LS(RBKT))     &kp BSPC      &td_minus    &td_equal   &kp RPAR
+&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP      &none       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &td_equal   &kp RPAR  
 &trans  &kp LG(GRAVE)     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &td_sqt  &kp RBRC
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &td_rbkt  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
