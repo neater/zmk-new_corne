@@ -254,7 +254,7 @@
         layer_4 {
             display-name = "Fn2";
             bindings = <
-&trans  &kp TILDE     &kp LG(LS(LC(LA(9))))     &mmv MOVE_UP       &kpLG(LS(LC(LA(0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp BSPC    &kp F9            &kp F10          &kp F11
+&trans  &kp TILDE     &kp LG(LS(LC(LA(9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp BSPC    &kp F9            &kp F10          &kp F11
 &kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &bootloader  &mkp LCLK  &none      &mkp RCLK    &kp RGUI  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
