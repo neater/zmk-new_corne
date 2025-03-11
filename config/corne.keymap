@@ -242,7 +242,7 @@
             bindings = <
 &kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp F5      &msc SCRL_UP      &none       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp RPAR
 &trans  &kp CAPS     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp DQT  &kp RBRC
-&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &kp SQT  &td_rbkt
+&trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &td_rbkt  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
