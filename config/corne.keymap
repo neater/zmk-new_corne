@@ -169,12 +169,12 @@
         };
 
         nvim_flash_f_j {
-            bindings = <&kp LC(;)>;
+            bindings = <&kp LC(SEMI)>;
             key-positions = <17 21>;
         };
 
         nvim_flash_d_k {
-            bindings = <&kp LC(;)>;
+            bindings = <&kp LC(SEMI)>;
             key-positions = <16 22>;
         };
     };
