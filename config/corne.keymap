@@ -196,7 +196,7 @@
 &td_grave   &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(LGUI) I      &kp O    &kp P     &kp BSPC
 &kp TAB  &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 7 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &kp SQT
 &kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT 
-                 &kp C_MUTE  &lt 8 LGUI  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 ENTER &lt 5 RIGHT_GUI 
+                 &kp C_MUTE  &lt 8 LGUI  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 BSPC &lt 5 RIGHT_GUI 
                                                              &kp ENTER
             >;
 
@@ -250,7 +250,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &msc SCRL_UP      &none       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp RPAR
+&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &msc SCRL_UP      &F18       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp RPAR
 &trans  &kp CAPS     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp DQT  &kp RBRC
 &trans  &kp LG(N6)     &kp LG(N7)      &kp LG(N8)    &kp LG(N9)    &kp LG(N0)   &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &kp SQT  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
