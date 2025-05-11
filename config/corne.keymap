@@ -163,6 +163,16 @@
             key-positions = <21 22>;
         };
 
+        tab_right {
+            bindings = <&kp TAB>;
+            key-positions = <8 9>;
+        };
+
+        tab_left {
+            bindings = <&kp TAB>;
+            key-positions = <3 4>;
+        };
+
         r_arrow {
             bindings = <&kp RIGHT_ARROW>;
             key-positions = <11 12>;
