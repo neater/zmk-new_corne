@@ -307,7 +307,7 @@
             display-name = "l-layer";
             bindings = <
 &trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp RPAR     &kp F7     &kp F8       &kp F9      &kp C_BRI_DEC          &bootloader
-&trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &sys_reset
+&trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &kp COLON    &kp DQT      &none     &none     &none
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &kp LEFT  &kp RIGHT  &kp SCROLLLOCK   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
