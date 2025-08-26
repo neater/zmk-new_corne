@@ -38,6 +38,15 @@
                 , <&kp RSHFT>
                 ;
         };
+        pwd_macro: pwd_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp A>
+                , <&kp B>
+                ;
+        };
+
     };
 
     conditional_layers {
@@ -186,6 +195,11 @@
         lock_screen {
             bindings = <&kp LG(LC(Q))>;
             key-positions = <11 12>;
+        };
+
+        input_pwd {
+            bindings = <&pwd_macro>;
+            key-positions = <24 25>;
         };
     };
 
