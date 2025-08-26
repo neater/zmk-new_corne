@@ -224,9 +224,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp PIPE
+&trans  &kp N1           &kp N2          &kp N3        &kp N4        &kp N5             &mmv MOVE_DOWN   &kp N6           &kp N7           &kp N8           &kp N9        &kp N0    &kp BSPC
 &trans  &kp EXCL      &kp AT        &kp HASH   &kp DLLR   &kp PRCNT    &mmv MOVE_DOWN   &kp CARET  &kp AMPS   &kp ASTRK  &kp LPAR   &kp RPAR  &kp BSLH
-&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_COLOR_HSB(36,26,98)       &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &kp GRAVE  &kp TILDE &kp PIPE  &kp BSLH  &kp F12
+&trans  &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_COLOR_HSB(36,26,98)       &trans        &rgb_ug RGB_EFF    &mmv MOVE_LEFT   &rgb_ug RGB_EFR  &kp GRAVE  &kp TILDE &kp DOT  &kp BSLH  &kp F12
                          &kp C_MUTE      &trans        &trans        &trans             &mmv MOVE_RIGHT  &kp INS          &kp DEL          &trans
                                                                                         &mkp LCLK
             >;
@@ -260,7 +260,7 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &msc SCRL_UP      &kp F18       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp PIPE
+&kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &msc SCRL_UP      &kp F18       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp BSPC
 &trans  &kp CAPS     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp DQT  &kp BSLH
 &trans  &kp LG(N6)     &kp LG(N7)      &kp LG(N8)    &kp LG(N9)    &kp LG(N0)   &msc SCRL_LEFT   &trans        &td_minus          &td_bslh     &td_lbkt  &kp SQT  &td_rbkt
                     &kp C_MUTE  &trans       &trans     &trans      &msc SCRL_RIGHT  &trans       &trans     &trans
