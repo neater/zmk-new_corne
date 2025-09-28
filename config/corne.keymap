@@ -57,6 +57,14 @@
     };
 
     behaviors {
+        ls: layer_sticky_layer {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "tap-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&sl>;
+            display-name = "Layer-Tap";
+        };
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
