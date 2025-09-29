@@ -51,8 +51,8 @@
         compatible = "zmk,conditional-layers";
         tri_layer {
             if-layers = <3 4>;
-            then-layer = <1>;
-        };
+            then-layer = <7>;
+        }; 
     };
 
     behaviors {
@@ -225,7 +225,7 @@
 &sl 5 &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(RGUI) I      &kp O    &kp P     &sl 7
 &sl 6 &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 6 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &sl 8
 &kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
-                 &kp C_MUTE  &mo_sl 8 1  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 BSPC &lt 5 ENTER 
+                 &kp C_MUTE  &mo_sl 8 6  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 BSPC &lt 5 ENTER 
                                                              &kp ENTER
             >;
 
@@ -293,7 +293,7 @@
         layer_4 {
             display-name = "Fn2";
             bindings = <
-&trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &sl 1  &kp F9            &kp F10          &kp F11
+&trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &sl 6  &kp F9            &kp F10          &kp F11
 &kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &bootloader  &mkp LCLK  &kp F18   &mkp RCLK    &kp RGUI  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans     &bootloader  &sys_reset  &kp SCROLLLOCK   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
