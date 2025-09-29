@@ -45,7 +45,6 @@
                 = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI>
                 ;
         };
-
     };
 
     conditional_layers {
@@ -57,12 +56,12 @@
     };
 
     behaviors {
-        mo_tog: behavior_mo_tog {
+        mo_sl: behavior_mo_tog {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&mo>, <&tog>;
+            bindings = <&mo>, <&sl>;
         };
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
@@ -226,7 +225,7 @@
 &sk LG(LS(LA(LCTRL))) &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(RGUI) I      &kp O    &kp P     &kp BSPC
 &sl 2 &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 7 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &kp SQT
 &kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
-                 &kp C_MUTE  &lt 8 TAB  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 BSPC &lt 5 ENTER 
+                 &kp C_MUTE  &mo_sl 8 1  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &lt 2 BSPC &lt 5 ENTER 
                                                              &kp ENTER
             >;
 
