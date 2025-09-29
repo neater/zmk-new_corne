@@ -255,7 +255,7 @@
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "L2";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
@@ -272,12 +272,12 @@
                                                                        &mkp LCLK
             >;
 
-            label = "SYMBOL";
+            //label = "SYMBOL";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
-            display-name = "Fn";
+            display-name = "L3";
             bindings = <
 &kp LG(GRAVE)  &kp LG(N1)     &kp LG(N2)      &kp LG(N3)    &kp LG(N4)    &kp LG(N5)      &msc SCRL_UP      &kp F18       &kp LG(LS(LBKT))    &kp BSPC       &kp LG(LS(RBKT))    &kp COLON   &kp BSPC
 &trans  &kp CAPS     &kp F17   &kp ESC      &kp F13  &mkp MB4    &msc SCRL_DOWN   &kp LEFT     &kp DOWN   &kp UP       &kp RIGHT   &kp DQT  &kp BSLH
@@ -286,12 +286,11 @@
                                                                     &mkp LCLK
             >;
 
-            label = "FN";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
-            display-name = "Fn2";
+            display-name = "L4";
             bindings = <
 &trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &sl 6  &kp F9            &kp F10          &kp F11
 &kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &bootloader  &mkp LCLK  &kp F18   &mkp RCLK    &kp RGUI  &kp F12
@@ -300,12 +299,11 @@
                                                                     &mkp LCLK
             >;
 
-            label = "FN2";
             sensor-bindings = <&inc_dec_kp C_BRI_INC C_BRI_DEC>;
         };
 
         layer_5 {
-            display-name = "Fn3";
+            display-name = "L5";
             bindings = <
 &msc SCRL_UP  &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4     &mmv MOVE_UP     &kp F6       &kp F7     &kp F8       &kp F9      &kp C_BRI_DEC  &bt BT_CLR_ALL
 &msc SCRL_DOWN   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4    &mkp MB4    &mmv MOVE_DOWN   &none   &none     &none     &none      &none      &sys_reset
@@ -314,12 +312,11 @@
                                                                     &mkp LCLK
             >;
 
-            label = "FN3";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_6 {
-            display-name = "Fn4";
+            display-name = "L6";
             bindings = <
 &trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4     &kp F5      &mmv MOVE_UP     &kp F6       &kp F7     &kp F8       &kp F9      &kp C_BRI_DEC          &bootloader
 &trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &sk LG(LS(LA(LCTRL)))  &mkp MB4    &mmv MOVE_DOWN   &none   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &sys_reset
@@ -328,12 +325,11 @@
                                                                     &mkp LCLK
             >;
 
-            label = "FN4";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_7 {
-            display-name = "l-layer";
+            display-name = "L7";
             bindings = <
 &trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp RPAR     &kp F7     &kp F8       &kp F9      &kp C_BRI_DEC          &bootloader
 &trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &none  &kp COLON    &kp DQT      &none     &none     &none
@@ -342,12 +338,11 @@
                                                                     &mkp LCLK
             >;
 
-            label = "l-layer";
             sensor-bindings = <&scroll_encoder>;
         };
 
         layer_8 {
-            display-name = "S-Layer";
+            display-name = "L8";
             bindings = <
 &trans  &kp F1      &kp F2      &mmv MOVE_UP       &kp F4    &kp LPAR      &mmv MOVE_UP     &kp PIPE    &kp UNDER     &kp PLUS     &kp LBRC       &kp RBRC       &kp BSPC
 &trans  &kp T      &mmv MOVE_LEFT   &msc SCRL_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN  &kp BSLH  &kp MINUS    &kp EQUAL     &kp LBKT  &kp RBKT  &kp RBKT
@@ -356,7 +351,7 @@
                                                                     &mkp LCLK
             >;
 
-            label = "S-Layer";
+            label = "L8";
         };
     };
 };
