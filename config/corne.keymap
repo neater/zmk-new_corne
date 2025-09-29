@@ -234,7 +234,7 @@
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "L1";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -250,7 +250,7 @@
                                                                                         &mkp LCLK
             >;
 
-            label = "NUMBER";
+            //label = "NUMBER";
             sensor-bindings = <&scroll_encoder>;
         };
 
