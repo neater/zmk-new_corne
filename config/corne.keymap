@@ -175,6 +175,7 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
+            layers = <0>;
         };
 
         tab_right {
