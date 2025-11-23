@@ -182,6 +182,12 @@
             key-positions = <8 9>;
         };
 
+        delete_combo {
+            bindings = <&kp BSPC>;
+            key-positions = <8 9>;
+            layers = <1 5>;
+        };
+
         tab_0_1 {
             bindings = <&kp TAB>;
             key-positions = <0 1>;
