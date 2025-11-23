@@ -175,12 +175,12 @@
         enter {
             bindings = <&kp ENTER>;
             key-positions = <21 22>;
-            layers = <0>;
         };
 
         tab_right {
             bindings = <&kp TAB>;
             key-positions = <8 9>;
+            layers = <0>;
         };
 
         delete_combo {
