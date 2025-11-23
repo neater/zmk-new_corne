@@ -360,7 +360,7 @@
             display-name = "L9";
             bindings = <
 &none   &none     &none     &none      &none   &none    &mmv MOVE_UP     &none   &none     &none     &none      &none   &none
-&none   &none     &none     &none      &none   &none    &mmv MOVE_DOWN   &msc SCRL_LEFT &msc SCRL_DOWN &msc SCRL_UP &msc SCRL_RIGHT &none
+&none   &none     &none     &none      &none   &none    &mmv MOVE_DOWN   &msc SCRL_RIGHT &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_LEFT &none
 &none   &none     &none     &none      &none   &none    &mmv MOVE_LEFT   &none   &none     &none     &none   &none   &none
                    &trans  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &trans
