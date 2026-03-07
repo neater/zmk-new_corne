@@ -185,12 +185,6 @@
 
         delete_combo {
             bindings = <&kp BSPC>;
-            key-positions = <8 9>;
-            layers = <1 5>;
-        };
-
-        delete_combo_2 {
-            bindings = <&kp BSPC>;
             key-positions = <9 10>;
             layers = <1 5>;
         };
