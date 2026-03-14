@@ -185,7 +185,7 @@
 
         delete_combo {
             bindings = <&kp BSPC>;
-            key-positions = <9 10>, <10 11>;
+            key-positions = <9 10>;
             layers = <0 1 5>;
         };
 
@@ -194,8 +194,13 @@
             key-positions = <0 1>;
         };
 
-        tab_left {
-            bindings = <&kp TAB>;
+        caps_switch {
+            bindings = <&kp F18>;
+            key-positions = <2 3>;
+        };
+
+        input_switch {
+            bindings = <&kp F18>;
             key-positions = <3 4>;
         };
 
