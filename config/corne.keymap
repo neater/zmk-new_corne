@@ -195,7 +195,7 @@
         };
 
         caps_switch {
-            bindings = <&kp F18>;
+            bindings = <&kp CAPS>;
             key-positions = <2 3>;
         };
 
