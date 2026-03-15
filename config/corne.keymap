@@ -309,7 +309,7 @@
             display-name = "L4";
             bindings = <
 &trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC   &kp F11
-&kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &kp RGUI  &mkp LCLK  &kp none   &mkp RCLK    &kp PIPE  &kp F12
+&kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &kp RGUI  &mkp LCLK  &none   &mkp RCLK    &kp PIPE  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans  &trans &trans  &kp BSLH   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
