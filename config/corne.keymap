@@ -63,6 +63,15 @@
             tapping-term-ms = <200>;
             bindings = <&mo>, <&sl>;
         };
+
+        mo_sk: behavior_mo_sk {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "hold-preferred";
+            tapping-term-ms = <200>;
+            bindings = <&mo>, <&sk>;
+        };
+
         gresc: grave_escape {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <0>;
@@ -242,7 +251,7 @@
 &kp TAB &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(RGUI) I      &kp O    &kp P     &kp BSPC
 &sl 6 &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 6 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &sl 8
 &kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &kp C     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
-                 &kp C_MUTE  &mo_sl 5 7  &lt 1 TAB  &lt 3 SPACE    &kp RIGHT_ARROW  &lt 4 SPACE  &mo_sl 2 8 &lt 6 ENTER 
+                 &kp C_MUTE  &mo_sl 5 7  &lt 1 TAB  &mo_sk 3 LEFT_SHIFT    &kp RIGHT_ARROW  &lt 4 SPACE  &mo_sl 2 8 &lt 6 ENTER 
                                                              &kp ENTER
             >;
 
