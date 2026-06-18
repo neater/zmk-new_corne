@@ -146,6 +146,12 @@
             bindings = <&kp SQT>, <&kp DQT>;
         };
 
+        td_ctrl_c: tap_dance_ctrl_c {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&kp C>, <&kp LG(C)>;
+        };
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
