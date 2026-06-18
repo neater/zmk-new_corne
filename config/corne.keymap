@@ -45,6 +45,18 @@
                 = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI>
                 ;
         };
+
+        ctrl_c: ctrl_c {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C)>;
+        };
+
+        ctrl_v: ctrl_v {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(V)>;
+        };
     };
 
     conditional_layers {
@@ -149,7 +161,6 @@
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
             bindings = <&kp>, <&kp>;
-
             #binding-cells = <2>;
             tapping-term-ms = <135>;
             quick-tap-ms = <0>;
@@ -158,9 +169,10 @@
         ctrl_c_v: ctrl_c_v {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
+            bindings = <&kp>, <&macro>;
             flavor = "tap-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
+            quick-tap-ms = <180>;
         };
 
         mmv {
@@ -258,7 +270,7 @@
             bindings = <
 &kp TAB &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(RGUI) I      &kp O    &kp P     &kp BSPC
 &sl 6 &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 6 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &sl 8
-&kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &hm LG(C) C     &hm LG(V) V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
+&kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &ctrl_c_v  C LG(C)  &ctrl_c_v V LG(V)  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
                  &kp C_MUTE  &mo_sl 5 7  &lt 1 TAB  &mo_sk 3 LEFT_SHIFT    &kp RIGHT_ARROW  &lt 4 SPACE  &mo_sl 2 8 &lt 6 ENTER 
                                                              &kp ENTER
             >;
