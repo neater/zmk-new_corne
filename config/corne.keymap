@@ -157,15 +157,6 @@
             flavor = "tap-preferred";
         };
 
-        ctrl_c_v: ctrl_c_v {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            bindings = <&macro>, <&kp>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <200>;
-            quick-tap-ms = <180>;
-        };
-
         as: auto_shift {
             compatible = "zmk,behavior-hold-tap";
             label = "AUTO_SHIFT";
