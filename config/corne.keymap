@@ -152,6 +152,12 @@
             bindings = <&kp C>, <&kp LG(C)>;
         };
 
+        td_ctrl_v: tap_dance_ctrl_v {
+            compatible = "zmk,behavior-tap-dance";
+            #binding-cells = <0>;
+            bindings = <&kp V>, <&kp LG(V)>;
+        };
+
         hm: homerow_mods {
             compatible = "zmk,behavior-hold-tap";
             label = "HOMEROW_MODS";
@@ -267,7 +273,7 @@
             bindings = <
 &kp TAB &kp Q  &kp W      &hm LA(LGUI) E     &hm LS(LGUI) R  &kp T          &kp UP_ARROW     &kp Y        &hm RS(RGUI) U  &hm RA(RGUI) I      &kp O    &kp P     &kp BSPC
 &sl 6 &hm LEFT_SHIFT A  &hm LEFT_ALT S  &hm LEFT_CONTROL D     &hm LEFT_GUI F  &lt 6 G  &kp DOWN_ARROW   &hm RIGHT_SHIFT H        &hm LEFT_GUI J  &hm RIGHT_CONTROL K      &hm RIGHT_ALT L   &hm RIGHT_SHIFT SEMI  &sl 8
-&kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &td_ctrl_c     &kp V  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
+&kp LG(LS(LC(LALT)))       &hm LG(LS(LC(LALT))) Z  &kp X      &td_ctrl_c     &td_ctrl_v  &kp B          &kp LEFT_ARROW   &kp N        &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RG(RS(RC(RALT)))
                  &kp C_MUTE  &mo_sl 5 7  &lt 1 TAB  &mo_sk 3 LEFT_SHIFT    &kp RIGHT_ARROW  &lt 4 SPACE  &mo_sl 2 8 &lt 6 ENTER 
                                                              &kp ENTER
             >;
@@ -334,8 +340,8 @@
         layer_4 {
             display-name = "L4";
             bindings = <
-&trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp F5      &mmv MOVE_UP     &kp F6       &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC   &kp F11
-&kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &mkp MB4    &mmv MOVE_DOWN   &kp RGUI  &mkp LCLK  &none   &mkp RCLK    &kp PIPE  &kp F12
+&trans  &kp TILDE     &kp LG(LS(LC(LA(N9))))     &mmv MOVE_UP       &kp LG(LS(LC(LA(N0))))      &kp TILDE      &mmv MOVE_UP     &kp F6       &kp LBKT  &kp RBKT  &kp LBRC   &kp RBRC   &kp F11
+&kp CAPS &kp GRAVE   &mmv MOVE_LEFT   &mmv MOVE_DOWN      &mmv MOVE_RIGHT  &kp GRAVE    &mmv MOVE_DOWN   &kp RGUI  &mkp LCLK  &none   &mkp RCLK    &kp PIPE  &kp F12
 &trans  &sys_reset  &trans      &bootloader  &trans     &mkp MB5    &mmv MOVE_LEFT   &trans       &trans  &trans &trans  &kp BSLH   &kp PAUSE_BREAK
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
