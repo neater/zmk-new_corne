@@ -161,7 +161,7 @@
         td_ctrl_x: tap_dance_ctrl_x {
             compatible = "zmk,behavior-tap-dance";
             #binding-cells = <0>;
-            bindings = <&kp X>, <&kp LA(LG(X))>;
+            bindings = <&kp X>, <&kp LA(LG(V))>;
         };
 
         hm: homerow_mods {
