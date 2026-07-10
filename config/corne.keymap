@@ -237,14 +237,14 @@
             key-positions = <2 3>;
         };
 
+        kitty_on {
+            bindings = <&kp LG(SEMI)>;
+            key-positions = <17 21>;
+        };
+
         input_switch {
             bindings = <&kp F18>;
             key-positions = <3 4>;
-        };
-
-        nvim_flash_f_j {
-            bindings = <&kp LC(SEMI)>;
-            key-positions = <17 21>;
         };
 
         nvim_flash_d_k {
