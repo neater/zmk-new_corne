@@ -284,7 +284,6 @@
                                                              &kp ENTER
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
         };
 
         lower_layer {
@@ -304,8 +303,6 @@
                                                                                         &mkp LCLK
             >;
 
-            //label = "NUMBER";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         raise_layer {
@@ -326,8 +323,6 @@
                                                                        &mkp LCLK
             >;
 
-            //label = "SYMBOL";
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_3 {
@@ -340,7 +335,6 @@
                                                                     &mkp LCLK
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_4 {
@@ -379,7 +373,6 @@
                                                                     &mkp LCLK
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_7 {
@@ -392,7 +385,6 @@
                                                                     &trans
             >;
 
-            sensor-bindings = <&scroll_encoder>;
         };
 
         layer_8 {
