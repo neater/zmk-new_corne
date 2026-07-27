@@ -244,7 +244,7 @@
 
         kitty_on_right {
             bindings = <&kp LG(SEMI)>;
-            key-positions = <17 43>;
+            key-positions = <18 43>;
         };
 
         input_switch {
