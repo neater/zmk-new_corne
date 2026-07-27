@@ -264,7 +264,7 @@
 
         input_pwd {
             bindings = <&pwd_macro>;
-            key-positions = <24 25>;
+            key-positions = <23 24>;
         };
     };
 
