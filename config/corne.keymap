@@ -416,7 +416,7 @@
         layer_9 {
             display-name = "L9";
             bindings = <
-&none   &none     &none     &none      &none   &none    &mmv MOVE_UP     &none   &none     &none     &none      &none   &none
+&none   &none     &none    &kp C_BRI_DEC &kp C_BRI_INC  &none    &mmv MOVE_UP    &none   &kp C_VOLUME_DOWN &kp C_VOLUME_UP &kp C_MUTE   &none &none
 &none   &none     &none     &none      &none   &none    &mmv MOVE_DOWN   &msc SCRL_RIGHT &msc SCRL_UP &msc SCRL_DOWN &msc SCRL_LEFT &none
 &none   &none     &none     &none      &none   &none    &mmv MOVE_LEFT   &none   &none     &none     &none   &none   &none
                    &trans  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
