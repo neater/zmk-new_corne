@@ -51,6 +51,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(LC(Q))>,
+                  <&macro_wait_time 500>,
                   <&kp ESC>
                 ;
         };
