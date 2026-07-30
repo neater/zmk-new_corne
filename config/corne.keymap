@@ -46,6 +46,15 @@
                 ;
         };
 
+        lock_macro: lock_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&kp LG(LC(Q))>,
+                  <&kp ESC>
+                ;
+        };
+
         ctrl_c: ctrl_c {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -264,7 +273,7 @@
 
         lock_screen {
             bindings = <&kp LG(LC(Q))>;
-            key-positions = <11 12>;
+            key-positions = <10 11>;
             layers = <3 6>;
         };
 
