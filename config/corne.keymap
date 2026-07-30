@@ -292,13 +292,6 @@
             layers = <3 6>;
         };
 
-        input_pwd_enter {
-            bindings = <&pwd_enter_macro>;
-            key-positions = <22 23>;
-            layers = <3 6>;
-        };
-    };
-
     };
 
     keymap {
