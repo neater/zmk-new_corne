@@ -237,11 +237,6 @@
             key-positions = <2 3>;
         };
 
-        kitty_on {
-            bindings = <&kp LG(SEMI)>;
-            key-positions = <17 21>;
-        };
-
         kitty_on_right {
             bindings = <&kp LG(SEMI)>;
             key-positions = <21 44>;
@@ -270,11 +265,13 @@
         lock_screen {
             bindings = <&kp LG(LC(Q))>;
             key-positions = <11 12>;
+            layers = <3 6>;
         };
 
         input_pwd {
             bindings = <&pwd_macro>;
             key-positions = <23 24>;
+            layers = <3 6>;
         };
     };
 
