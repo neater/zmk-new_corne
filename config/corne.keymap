@@ -292,11 +292,11 @@
             layers = <3 6>;
         };
 
-        input_pwd_enter {
-            bindings = <&pwd_enter_macro>;
-            key-positions = <22 23 24>;
-            layers = <3 6>;
-        };
+        /* input_pwd_enter { */
+        /*     bindings = <&pwd_enter_macro>; */
+        /*     key-positions = <22 23 24>; */
+        /*     layers = <3 6>; */
+        /* }; */
     };
 
     };
