@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI>
+                = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI &kp ENTER>
                 ;
         };
 
@@ -292,11 +292,11 @@
             layers = <3 6>;
         };
 
-        /* input_pwd_enter { */
-        /*     bindings = <&pwd_enter_macro>; */
-        /*     key-positions = <22 23 24>; */
-        /*     layers = <3 6>; */
-        /* }; */
+        input_pwd_enter {
+            bindings = <&pwd_enter_macro>;
+            key-positions = <22 23>;
+            layers = <3 6>;
+        };
     };
 
     };
