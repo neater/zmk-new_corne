@@ -46,15 +46,6 @@
                 ;
         };
 
-        macro_test: macro_test {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-              = <&kp A>,
-                <&macro_wait_time 50>,
-                <&kp RET>;
-        };
-
         pwd_enter_macro: pwd_enter_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -70,7 +61,7 @@
             #binding-cells = <0>;
             bindings
                 = <&kp LG(LC(Q))>,
-                  <&macro_wait_time 2000>,
+                  <&macro_wait_time 500>,
                   <&kp ESC>
                 ;
         };
@@ -292,7 +283,7 @@
         };
 
         lock_screen {
-            bindings = <&kp LG(LC(Q))>;
+            bindings = <&lock_macro>;
             key-positions = <10 11>;
             layers = <3 6>;
         };
@@ -305,16 +296,9 @@
 
         input_pwd_enter {
             bindings = <&pwd_enter_macro>;
-            key-positions = <21 22 23>;
+            key-positions = <22 23 24>;
             layers = <3 6>;
         };
-
-        input_test {
-            bindings = <&macro_test>;
-            key-positions = <21 22>;
-            layers = <3 6>;
-        };
-
 
     };
 
