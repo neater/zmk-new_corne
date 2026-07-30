@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings
-                = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI &kp ENTER>
+                = <&kp F &kp D &kp S &kp A &kp J &kp K &kp L &kp SEMI>
                 ;
         };
 
