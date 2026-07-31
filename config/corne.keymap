@@ -260,11 +260,6 @@
             key-positions = <21 44>;
         };
 
-        kitty_on_34_35 {
-            bindings = <&kp LG(SEMI)>;
-            key-positions = <34 35>;
-        };
-        
         kitty_on_8_21 {
             bindings = <&kp LG(SEMI)>;
             key-positions = <8 21>;
