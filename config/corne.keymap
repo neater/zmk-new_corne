@@ -298,6 +298,12 @@
             layers = <3 6>;
         };
 
+        bt_clear {
+            bindings = <&bt BT_CLR>;
+            key-positions = <1 2 3 4>;
+            layers = <6>;
+        };
+
     };
 
     keymap {
@@ -404,8 +410,8 @@
             display-name = "L6";
             bindings = <
 &none   &none     &none     &none      &none   &none    &mmv MOVE_UP     &none   &none     &none     &none      &none   &none
-&msc SCRL_DOWN   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4   &mmv MOVE_DOWN   &none   &none     &none     &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &none
-&none   &none     &none     &none      &none   &none    &mmv MOVE_LEFT   &none   &none     &none     &kp LEFT  &kp RIGHT   &none
+&none   &bt BT_SEL 0    &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &bt BT_SEL 4   &mmv MOVE_DOWN   &none   &none     &none     &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &none
+&none   &none     &none     &none     &bt BT_SEL 4  &none    &mmv MOVE_LEFT   &none   &none     &none     &kp LEFT  &kp RIGHT   &none
                     &kp C_MUTE  &trans       &trans     &trans      &mmv MOVE_RIGHT  &trans       &trans     &trans
                                                                     &mkp LCLK
             >;
