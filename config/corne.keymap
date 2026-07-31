@@ -254,6 +254,11 @@
             bindings = <&kp CAPS>;
             key-positions = <2 3>;
         };
+        
+        switch_app_back {
+          bindings = <&kp LG(TAB)>;
+          key-positions = <22 44>;
+        };
 
         kitty_on_right {
             bindings = <&kp LG(SEMI)>;
