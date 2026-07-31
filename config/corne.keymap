@@ -242,6 +242,11 @@
             key-positions = <21 44>;
         };
 
+        switch_app_back {
+            bindings = <&kp LG(TAB)>;
+            key-positions = <22 44>;
+        };
+
         input_switch {
             bindings = <&kp F18>;
             key-positions = <3 4>;
