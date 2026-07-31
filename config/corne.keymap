@@ -239,7 +239,7 @@
 
         kitty_on {
             bindings = <&kp LG(SEMI)>;
-            key-positions = <17 44>;
+            key-positions = <21 44>;
         };
 
         input_switch {
